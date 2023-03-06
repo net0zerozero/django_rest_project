@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lesson2"
+version = "0.1.0"
+description = ""
+authors = ["Net_Zero <netrannetranner@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.14.0"
+django = "^4.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
